@@ -1,12 +1,12 @@
-import React from "react"; 
+import CalorieTracker from "./Diet/CalorieTracker";
+import WeightLossTracker from "./Diet/WeightLossTracker";
 
-const Diet = () => { 
-  return ( 
-   <div style={{ padding: "20px" }}> 
-    <h2>Diet & Weight Loss</h2> 
-    <p>Track calories, log meals, and get nutrition tips.</p> 
-   </div> 
-  ); 
-}; 
-
-export default Diet;
+export default function Diet() {
+  return (
+    <div>
+      <h1>Diet & Weight Loss</h1>
+      <CalorieTracker />
+      <WeightLossTracker />
+    </div>
+  );
+}
