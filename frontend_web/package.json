@@ -13,5 +13,9 @@
      "deploy": "gh-pages -d build", 
      "predeploy": "npm run build" 
    }, 
+   "devDependencies": {
+  "react-scripts": "^5.0.1",
+  "gh-pages": "^6.1.1"
+}
    "homepage": "https://kujurbimal.github.io/ultimate-fitness-app" 
 }
