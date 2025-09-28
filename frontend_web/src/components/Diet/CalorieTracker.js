@@ -28,7 +28,7 @@ export default function CalorieTracker() {
         ))}
       </ul>
       <h4>Total: {totalCalories} kcal</h4>
-      <p>{totalCalories > 2000 ? "⚠️ Over target! Try lighter meals." : "✅ On track today!"}</p>
+      <p>{totalCalories > 2000 ? " Over target! Try lighter meals." : " On track today!"}</p>
     </div>
   );
 }
